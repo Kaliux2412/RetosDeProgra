@@ -27,7 +27,7 @@ if(longitud >= 8 and longitud <=16):
         if(con_mayus == "no" and con_num == "si" and con_simbo == "no"):
             contador(27,36)
         if(con_mayus == "si" and con_num == "no" and con_simbo == "si"):
-            num = caracteres
+            num = 1
             contraseña = ""
             while num <= caracteres:
                 aleatorio = random.randint(0,26)
