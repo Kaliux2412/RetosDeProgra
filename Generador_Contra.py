@@ -1,7 +1,7 @@
 
 import random
 longitud = int(input("Cuantos caracteres quieres que tenga? (escoge entre 8-16)\n"))
-if(longitud >= 8 and longitud <=16): 
+if(longitud >= 8 and longitud <=20): 
     def crear_contra(caracteres):
         contenido = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","Ñ","O","P","Q", "R","S","T","U","V","W","X","Y","Z",
          "0","1","2","3","4","5","6","7","8","9","#","!","$","%","&","/","(",")","=","?",">","*","¡","¿"]
@@ -49,3 +49,4 @@ if(longitud >= 8 and longitud <=16):
 else:
     print("Escoge entre 8 y 16, no más, no menos")
 crear_contra(longitud)
+
