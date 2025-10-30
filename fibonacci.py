@@ -8,7 +8,11 @@
 
 def fibonacci():
     lista = [0, 1]
+<<<<<<< HEAD
     while len(lista) <= 1000:
+=======
+    while len(lista) <= 100:
+>>>>>>> a33c377ff322d3f07ade8b9b1c406869616c6ace
         i = len(lista)
         suma = lista[i-2] + lista[i-1]
         x = suma
