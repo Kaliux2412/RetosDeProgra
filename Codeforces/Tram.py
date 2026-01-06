@@ -11,9 +11,6 @@ pasajeros =(lista[0][1] - lista[0][0])
 for num in range(1,n-1):
     pasajeros = pasajeros + lista[num][1] - lista[num][0]
     valores.append(pasajeros)
-    if pasajeros +  lista[num][1] - lista[num][0]:
-        valores.append(0)
-        break
 mini = max(valores)
 
 print(mini)

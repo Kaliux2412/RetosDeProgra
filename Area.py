@@ -82,7 +82,7 @@ if pos != len(arr) and arr[pos] == 9:
     print("Encontrado en índice", pos)  # Output: 4
 else:
     print("No encontrado")
-=======
+
 #Este codigo se encargará de sacar el área de triagulos, cuadrados o 
 #rectangulos, con una sola función. FACIL
 
@@ -106,4 +106,4 @@ def Area(tipo, lado1, lado2):
         print("El área de tu triangulo es: " + str(area))
 
 Area("rectangulo", 4, 9)
->>>>>>> a33c377ff322d3f07ade8b9b1c406869616c6ace
+
